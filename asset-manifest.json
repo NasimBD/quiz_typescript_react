@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.js": "/quiz_typescript_react/static/js/main.f3fe9bde.js",
-    "static/media/sean-oulashin.jpg": "/quiz_typescript_react/static/media/sean-oulashin.3bbba8741b135f531008.jpg",
+    "main.js": "/quiz_typescript_react/static/js/main.0d74fa5f.js",
+    "static/media/sean-oulashin.jpg": "/quiz_typescript_react/static/media/sean-oulashin.89633e3bb3642778fe20.jpg",
     "static/media/loading-3.gif": "/quiz_typescript_react/static/media/loading-3.72099449a047f45b90c7.gif",
     "index.html": "/quiz_typescript_react/index.html",
-    "main.f3fe9bde.js.map": "/quiz_typescript_react/static/js/main.f3fe9bde.js.map"
+    "main.0d74fa5f.js.map": "/quiz_typescript_react/static/js/main.0d74fa5f.js.map"
   },
   "entrypoints": [
-    "static/js/main.f3fe9bde.js"
+    "static/js/main.0d74fa5f.js"
   ]
 }
