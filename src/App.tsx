@@ -56,7 +56,7 @@ function App() {
 
       {loading && <img src={LoadinImage} id="loadingImg" alt="loading..."/>}
 
-      {!loading && !gameOver && (
+      {!loading && questions.length > 0 && (
         <QuizCard
         question={questions[currentQuestionIndex]}
         onAnswerClick={onAnswerClick}
