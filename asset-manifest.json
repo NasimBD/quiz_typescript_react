@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.js": "/quiz_typescript_react/static/js/main.f3fe9bde.js",
+    "static/media/sean-oulashin.jpg": "/quiz_typescript_react/static/media/sean-oulashin.3bbba8741b135f531008.jpg",
+    "static/media/loading-3.gif": "/quiz_typescript_react/static/media/loading-3.72099449a047f45b90c7.gif",
+    "index.html": "/quiz_typescript_react/index.html",
+    "main.f3fe9bde.js.map": "/quiz_typescript_react/static/js/main.f3fe9bde.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.f3fe9bde.js"
+  ]
+}
