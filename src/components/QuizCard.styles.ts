@@ -42,7 +42,7 @@ export const ButtonWrapper = styled.div<ButtonWrapperProps>`
         text-shadow: 0px 0px 6px rgba(0,0,0,0.9);
         border: 2px white solid;
         box-shadow: 1px 1px 2px 0 rgba(0,0,0,0.3);
-        background: ${({clicked, correct}) => !clicked ? 'linear-gradient(90deg, hsl(183, 28%, 69%), hsl(183, 28%, 39%))' : correct ? 'hsl(146, 89%, 37%)' : 'red'};
+        background: ${({clicked, correct}) => correct ? 'hsl(146, 89%, 37%)' : clicked ? 'red' : 'linear-gradient(90deg, hsl(183, 28%, 69%), hsl(183, 28%, 39%))'};
         color: white;
         user-select: none;
     }
