@@ -27,7 +27,7 @@ export const QuizCard: React.FC<Props> = ({question , onAnswerClick, answersInde
                 <ButtonWrapper
                 key={indx}
                 clicked={(typeof answersIndex[currentQuestionIndex] !== 'undefined') ? answersIndex[currentQuestionIndex]===indx : false}
-                correct={answer.correctness}>
+                correct={(typeof answersIndex[currentQuestionIndex] !== 'undefined') ? answer.correctness : false}>
                     <button 
                     type="button"
                     onClick={() => handleAnswerClick(answer.correctness, indx)}
